@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Form Validation</title>
+</head>
+<body>
+    <form>
+        <input id="name" type="text" name="name" placeholder="Full name">
+        <span id="name-error">Enter name</span>
+        
+        <input id="number" name="number" placeholder="Phone number">
+        <span id="number-error">Enter phone number</span>
+        <span id="number-error" style="display: none; color: red;">Enter a valid phone number</span>
+
+        
+        <input id="email" type="email" name="email" placeholder="Email">
+        <span id="email-error">Enter email</span>
+        
+        <textarea id="message" name="message" placeholder="Message"></textarea>
+        <span id="message-error">Message can't be empty</span>
+        
+        <button id="sendbtn" type="submit">Send</button>
+    </form>
+
+    <script src="./assets/main.js"></script>
+</body>
+</html>

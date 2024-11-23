@@ -1,0 +1,35 @@
+
+#error-mssg, #name-error, #number-error, #email-error, #message-error {
+    display: none; 
+    color: red;
+    font-size: 14px;
+    margin: 5px;
+    align-self: center;
+  }
+  
+  .error-style {
+    border-color: red;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  form input, form textarea {
+    align-self: center;
+    width: 30%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  #sendbtn {
+    width: 5%;
+    align-self: center;
+    padding: 10px;
+    background-color: rgb(109, 37, 225);
+    border-radius: 20px;
+    color: white;
+  }
+  
